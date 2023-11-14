@@ -1,3 +1,54 @@
 body {
   background: peachpuff;
 }
+
+* {
+  border: 1px solid red;
+}
+
+.container {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 
+}
+
+.container2 div {
+  width: 22%;
+  margin: 1em;
+  
+}
+
+
+.a {
+  flex-grow: 2;
+  margin: 1em;
+}
+
+.h 
+ {
+  width: 100% auto;
+  margin: 1em;
+  flex-grow: 6;
+ }
+
+ @media (min-width: 600px) {
+.container {  
+  flex-direction: row;
+}
+.container2 {
+  width: 65vw
+}
+.a {
+  width: 100vw;
+}
+}

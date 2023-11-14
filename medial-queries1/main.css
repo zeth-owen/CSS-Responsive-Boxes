@@ -1,3 +1,43 @@
 body {
   background: blanchedalmond;
 }
+.container {
+  background-color: red;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.a,.c {
+  display: flex;
+  background-color: aqua;
+  flex-grow: 1;
+  margin: 1em;
+
+}
+
+.b {
+  display: flex;
+  background-color: antiquewhite;
+  margin: 1em;
+  min-height: 65vh;
+}
+
+@media(min-width:600px) {
+
+.container {
+  flex-direction: row;
+}
+.c {
+flex-grow: 2;
+}
+.a {
+ width: 100vw
+}
+.b {
+ flex-grow: 5;
+}
+}
+
+
